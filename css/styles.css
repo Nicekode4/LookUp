@@ -1,0 +1,246 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+    background-image: 
+    url(/JustLookUp/assests/simple-starry-space-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    
+}
+.a1{
+    color: blue;
+    font-size: 100%;
+}
+section{
+    /* background-image: 
+    url(https://www.innovationnewsnetwork.com/wp-content/uploads/2021/03/iStockPaulFleet-153984222.jpg); */
+    /* background-color: black; */
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+scroll-behavior: smooth;
+font-family: Arial, Helvetica, sans-serif;
+height: 100%;
+width: 100%;
+}
+#art1{
+    color: white;
+text-align: center;
+margin-top: 100px;
+/* margin-top: 250px;
+margin-right: 10%;
+height: 100%; */
+display: flex;
+margin-left: 70%;
+padding-top: 20%;
+
+}
+h1{
+font-size: 1250%;
+display: inline;
+height: 20%;
+color: white;
+
+}
+
+h3{
+    height: 10%;
+    font-size: 850%;
+display: inline;
+}
+.h11{
+    color: white;
+    font-size: 200%;
+    display: block;
+    height: 1%;
+    text-align: center;
+    visibility: hidden;
+    }
+    .h33{
+        display: block;
+        font-size: 200%;
+        text-align: center;
+        color: crimson;
+        visibility: hidden;
+    }
+    .p2{
+        font-size: 100%;
+        margin-top: 8%;
+    padding: 4px;
+    border-radius: 10px;
+    border: solid white 2px;
+    }
+    .a2{
+        font-size: 100%;
+        margin-top: 8%;
+    color: crimson;
+    }
+header{
+    color: antiquewhite;
+display: inline-block;
+background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+    width: 8%;
+    border-radius: 100px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+a{
+padding-top: 5px;
+color: white;
+text-decoration: none;
+font-size: 200%;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 100px;
+display: inline;
+}
+#just-look{
+    color: crimson;
+
+
+
+}
+#hi2{
+
+    height: 9%;
+}
+#divv{
+    height: 100%;
+}
+img{
+    display: inline;
+    width: 40%;
+
+
+}
+.img2{
+    width: 30%;
+    animation: fade-in-up 2s ease infinite;
+    rotate: -15deg;
+}
+/* @keyframes fade-in-up {
+    0% {
+      opacity: 1;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+p {
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+  h4{
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .img-art{
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      color: white;
+      font-size: 125%;
+      
+
+  }
+  .img-art .art1{
+      display: inline-block;
+      text-align: center;
+      width: 60%;
+    
+  }
+  .img-art .art2{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+  
+}
+.img-art .art3{
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+  
+}
+.tooltip {
+    position: relative;
+    display: block;
+    border-bottom: 1px dotted black;
+    margin-bottom: 100px;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: white;
+    color: crimson;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .fade-out {
+    animation: fadeOut infinite 8s;
+    -webkit-animation: fadeOut infinite 8s;
+    -moz-animation: fadeOut infinite 8s;
+    -o-animation: fadeOut infinite 8s;
+    -ms-animation: fadeOut infinite 8s;
+    color: crimson;
+    text-align: center;
+    font-size: 250%;
+    margin-top: 300px;
+  }@keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-moz-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-o-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+  
+  @-ms-keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+  }
